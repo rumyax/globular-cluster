@@ -1,0 +1,9 @@
+services:
+  cluster:
+    container_name: cluster
+    image: cluster
+    build:
+      context: ./
+      dockerfile: server.dockerfile
+    ports:
+    - ${DOCKER_PORT}:${PORT}

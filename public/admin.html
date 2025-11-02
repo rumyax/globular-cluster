@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <link rel="icon" href="./icon.png"/>
+        <link rel="stylesheet" href="./admin.css"/>
+        <title>Globular Cluster - Admin</title>
+    </head>
+    <body>
+        <div>
+            <input id="scale-input" type="number" step="0.01"/>
+            <button id="scale-button"> S C A L E </button>
+        </div>
+        <div>
+            <input id="grid-input" style="text-align: center;" disabled/>
+            <button id="grid-button">  G R I D  </button>
+        </div>
+        <div>
+            <input id="cell-input" type="number" step="1000"/>
+            <button id="cell-button">  C E L L  </button>
+        </div>
+        <div>
+            <input id="x-input" type="number" step="1000"/>
+            <button id="x-button">     X     </button>
+        </div>
+        <div>
+            <input id="y-input" type="number" step="1000"/>
+            <button id="y-button">     Y     </button>
+        </div>
+        <div>
+            <input id="mass-input" style="text-align: right;" disabled/>
+            <button id="mass-button" style="cursor: default;" disabled>  M A S S  </button>
+        </div>
+        <div>
+            <input id="time-input" style="text-align: right;" disabled/>
+            <button id="time-button" style="cursor: default;" disabled>  T I M E  </button>
+        </div>
+        <div>
+            <input id="hmr-input" style="text-align: right;" disabled/>
+            <button id="hmr-button" style="cursor: default;" disabled>   H M R   </button>
+        </div>
+        <div>
+            <input id="import-input" type="file"/>
+        </div>
+        <div>
+            <button id="export-button"> E X P O R T </button>
+        </div>
+        <script type="module" src="./admin.js"></script>
+    </body>
+</html>

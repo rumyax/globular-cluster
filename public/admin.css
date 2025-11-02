@@ -1,0 +1,26 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
+}
+
+input, button {
+    margin: 5px;
+    font-family: inherit;
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+input {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+button {
+    white-space: pre;
+    cursor: pointer;
+    color: rgb(255, 255, 50);
+    background-color: rgb(255, 50, 0);
+}
